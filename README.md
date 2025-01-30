@@ -54,14 +54,9 @@ Servis Versiyon Tespiti: Açık portlarda çalışan servislerin isimlerini ve s
 
 Zafiyet Eşleştirme: Tespit edilen servisleri, bilinen güvenlik açıklarıyla eşleştirme yaparak bilgi sağlar.
 
-Kullanım Alanları
-
-Bu araç, aşağıdaki alanlarda aktif olarak kullanılabilir:
-
-Ağ Güvenliği Analizi: Açık portların tespitiyle potansiyel saldırı vektörlerini belirleyerek ağ güvenliğini artırmak.
-
-Sızma Testleri (Penetration Testing): Bir sistemin saldırılara karşı ne kadar savunmasız olduğunu görmek için test aracı olarak kullanılır.
-
-Sistem Yönetimi: Ağ yöneticileri, sistemlerinde çalışan servisleri kontrol etmek ve gereksiz açıkları kapatmak için kullanabilir.
-
-Güvenlik Açıklarının Belirlenmesi: Belirli servislerin bilinen zafiyetleri ile eşleşmesi sağlanarak, sistemin güvenliğini artırmak için alınması gereken önlemler belirlenebilir.
+Kullanım Alanları:
+*Bu araç, aşağıdaki alanlarda aktif olarak kullanılabilir:
+*Ağ Güvenliği Analizi: Açık portların tespitiyle potansiyel saldırı vektörlerini belirleyerek ağ güvenliğini artırmak.
+*Sızma Testleri (Penetration Testing): Bir sistemin saldırılara karşı ne kadar savunmasız olduğunu görmek için test aracı olarak kullanılır.
+*Sistem Yönetimi: Ağ yöneticileri, sistemlerinde çalışan servisleri kontrol etmek ve gereksiz açıkları kapatmak için kullanabilir.
+*Güvenlik Açıklarının Belirlenmesi: Belirli servislerin bilinen zafiyetleri ile eşleşmesi sağlanarak, sistemin güvenliğini artırmak için alınması gereken önlemler belirlenebilir.
