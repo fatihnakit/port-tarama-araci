@@ -1,0 +1,17 @@
+# Parametre Yapısı
+OPSİYONEL_PARAMETRELER = {
+    "ports": {
+        "tip": "list",
+        "varsayılan": "20-1025",
+        "açıklama": "Tarama yapılacak port aralığı"
+    }
+}
+
+# Çıktı Formatı
+Cikti_Formati = {
+    "sonuç": {
+        "durum": "başarılı/başarısız",
+        "veri": {},
+        "hata_mesajı": "varsa hata açıklaması"
+    }
+}
