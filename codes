@@ -1,0 +1,49 @@
+import socket
+import threading
+import nmap
+
+# Function to scan a single port
+def scan_port(target, port):
+    try:
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        sock.settimeout(1)
+        result = sock.connect_ex((target, port))
+        if result == 0:
+            print(f"[+] Port {port} is open")
+        sock.close()
+    except Exception as e:
+        print(f"[-] Error scanning port {port}: {e}")
+
+# Function to perform a port scan
+def port_scan(target, ports):
+    print(f"[*] Scanning {target}...")
+    for port in ports:
+        thread = threading.Thread(target=scan_port, args=(target, port))
+        thread.start()
+
+# Function to perform service version detection
+def service_detection(target, ports):
+    scanner = nmap.PortScanner()
+    for port in ports:
+        try:
+            scanner.scan(target, str(port), arguments='-sV')
+            service_info = scanner[target]['tcp'][port]
+            print(f"[+] Port {port}: {service_info['name']} {service_info['version']}")
+        except Exception as e:
+            print(f"[-] Error detecting service on port {port}: {e}")
+
+# Function to match vulnerabilities (Placeholder for integration with vulnerability databases)
+def match_vulnerabilities(service_name, version):
+    print(f"[*] Checking vulnerabilities for {service_name} {version}...")
+    # This should be implemented using a CVE database or vulnerability scanner API
+    return "No known vulnerabilities found"  # Placeholder response
+
+if __name__ == "__main__":
+    target_ip = input("Enter target IP: ")
+    ports_to_scan = list(range(20, 1025))  # Common ports
+    
+    # Step 1: Perform port scanning
+    port_scan(target_ip, ports_to_scan)
+    
+    # Step 2: Perform service version detection
+    service_detection(target_ip, ports_to_scan)
