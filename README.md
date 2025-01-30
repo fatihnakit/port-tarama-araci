@@ -1,5 +1,4 @@
 Port Tarama ve Servis Tespit Aracı
-
 Temel Bilgiler
 
 Proje Adı: Port Tarama ve Servis Tespit Aracı
