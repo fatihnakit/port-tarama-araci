@@ -1,16 +1,12 @@
 Port Tarama ve Servis Tespit Aracı
 
-Temel Bilgiler
-
+Temel Bilgiler:
 Proje Adı: Port Tarama ve Servis Tespit Aracı
-
 Öğrenci Adı ve Numarası: Fatih Sultan Nakit - 2320191078
-
 Teslim Tarihi: 30-01-2025
-
 Projenin Amacı ve Kapsamı
 
-Bu proje, ağ üzerindeki açık portları taramak, çalıştırılan servislerin sürümlerini tespit etmek ve güvenlik zafiyetlerini belirlemek amacıyla geliştirilmiştir.
+*Bu proje, ağ üzerindeki açık portları taramak, çalıştırılan servislerin sürümlerini tespit etmek ve güvenlik zafiyetlerini belirlemek amacıyla geliştirilmiştir.
 
 Çözülen Güvenlik Problemi
 
